@@ -36,3 +36,6 @@ Dans l'analyse des sentiments, il y a trois (3) approches
 2. MACHINE LEARNING
 3. DEEP LEARNING
 Alors ici, nous allons expliquer l'approche **RULE BASED** 
+## L'approche RULE BASED
+comment ça fonctionne l'approche **RULE BASED**, elle repose sur deux principes: un lexique et des règles.
+![principe](images/principes.png)
