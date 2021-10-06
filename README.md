@@ -42,7 +42,7 @@ comment ça fonctionne l'approche **RULE BASED**, elle repose sur deux principes
 
 ## La lexique
 la lexique est une longue liste de deux colonnes, à gauche les mots et à droite les sentiments des mots.
-![exemple](images/exemple.png)
+![exemple](images/exemple.png)<br/>
 avec une liste comme ça, nous allons trois règles à savoir
 * <code>**N**</code> Négative
 * <code>**P**</code> Positive
