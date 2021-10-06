@@ -28,3 +28,11 @@ Bref l'analyse des sentiments peut permettre à une société ou entité d'écon
 * analyse de marché des concurent
 * améliorer les contact centers
 * monitoring des réseaux sociaux
+
+## Comment ça merche 
+![comment ça marche](images/commentcamarche.png)
+Dans l'analyse des sentiments, il y a trois (3) approches
+1. RULE BASED
+2. MACHINE LEARNING
+3. DEEP LEARNING
+Alors ici, nous allons expliquer l'approche **RULE BASED** 
