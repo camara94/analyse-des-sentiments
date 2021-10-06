@@ -54,3 +54,15 @@ qu'elle devait faire.
 La règle la plus simple serait de compter le nombre de mot positif et le nombre de mot négatif dans une phrase.
 ![règle1](images/regle1.png)
 si le nombre de mot positif est supérieur au nombre de mot négatif, alors on considère que la phrase est positive.
+
+## Exemple
+![exemple](images/exemple2.png)
+
+Pour qu'un modèle puis comprendre le sentiment d'une phrase, il doit aussi pouvoir comprendre la syntaxe, on doit écrire des règles
+plus strictes et ça il y a des sujets de recherche.
+* [Analysis of Hindis reviews](https://aclanthology.org/W13-4306.pdf)
+* [A SURVEY ON SENTIMENT ANALYSIS METHODS AND APPROACH](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7951748)
+![syntaxe](images/syntaxe.png)
+Dans la plupart des cas, les règles qu'on utilise pour comprendre la syntaxe des phrases utilisent ce qu'on appelle le 
+**contexte des mots**  
+![contextdesmots](images/contextedemot.png)
