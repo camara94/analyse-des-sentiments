@@ -39,3 +39,11 @@ Alors ici, nous allons expliquer l'approche **RULE BASED**
 ## L'approche RULE BASED
 comment ça fonctionne l'approche **RULE BASED**, elle repose sur deux principes: un lexique et des règles.
 ![principe](images/principes.png)
+
+## La lexique
+la lexique est une longue liste de deux colonnes, à gauche les mots et à droite les sentiments des mots.
+![exemple](images/exemple.png)
+avec une liste comme ça, nous allons trois règles à savoir
+* <h3><code>N</code></h3> Négative
+* <h3><code>P</code></h3> Positive
+* <h3><code>/</code></h3> Neutre
