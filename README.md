@@ -44,6 +44,13 @@ comment ça fonctionne l'approche **RULE BASED**, elle repose sur deux principes
 la lexique est une longue liste de deux colonnes, à gauche les mots et à droite les sentiments des mots.
 ![exemple](images/exemple.png)
 avec une liste comme ça, nous allons trois règles à savoir
-* <h3><code>N</code></h3> Négative
-* <h3><code>P</code></h3> Positive
-* <h3><code>/</code></h3> Neutre
+* <code>**N**</code> Négative
+* <code>**P**</code> Positive
+* <code>**/**</code> Neutre
+
+## Les règles
+Les règle en résumé, c'est le gargon, par opposition au **machine learning** c'est pour dire que la marchine n'a rien appris qu'on lui à dit tout ce
+qu'elle devait faire.
+La règle la plus simple serait de compter le nombre de mot positif et le nombre de mot négatif dans une phrase.
+![règle1](images/regle1.png)
+si le nombre de mot positif est supérieur au nombre de mot négatif, alors on considère que la phrase est positive.
