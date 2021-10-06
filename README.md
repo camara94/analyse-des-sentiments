@@ -66,3 +66,6 @@ plus strictes et ça il y a des sujets de recherche.
 Dans la plupart des cas, les règles qu'on utilise pour comprendre la syntaxe des phrases utilisent ce qu'on appelle le 
 **contexte des mots**  
 ![contextdesmots](images/contextedemot.png)
+
+## Résumé
+![resumé](images/resume.png)
