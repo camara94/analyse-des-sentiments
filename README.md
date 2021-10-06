@@ -23,3 +23,8 @@ par exemples est ce que ce sont:
 * tranche d'âge
 * quels sont leur sujet d'intérêt ( de quoi parlent-ils)
 Bref l'analyse des sentiments peut permettre à une société ou entité d'économiser beaucoups d'argent.
+
+## Application de l'analyse de sentiments
+* analyse de marché des concurent
+* améliorer les contact centers
+* monitoring des réseaux sociaux
