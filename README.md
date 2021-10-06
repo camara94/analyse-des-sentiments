@@ -68,4 +68,5 @@ Dans la plupart des cas, les règles qu'on utilise pour comprendre la syntaxe de
 ![contextdesmots](images/contextedemot.png)
 
 ## Résumé
+
 ![resumé](images/resume.png)
