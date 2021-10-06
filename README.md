@@ -61,8 +61,8 @@ si le nombre de mot positif est supérieur au nombre de mot négatif, alors on c
 Pour qu'un modèle puis comprendre le sentiment d'une phrase, il doit aussi pouvoir comprendre la syntaxe, on doit écrire des règles
 plus strictes et ça il y a des sujets de recherche.
 * [Analysis of Hindis reviews](https://aclanthology.org/W13-4306.pdf)
-* [A SURVEY ON SENTIMENT ANALYSIS METHODS AND APPROACH](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7951748)
-![syntaxe](images/syntaxe.png)
+* [A SURVEY ON SENTIMENT ANALYSIS METHODS AND APPROACH](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7951748)<br />
+![syntaxe](images/syntaxe.png)<br/>
 Dans la plupart des cas, les règles qu'on utilise pour comprendre la syntaxe des phrases utilisent ce qu'on appelle le 
 **contexte des mots**  
 ![contextdesmots](images/contextedemot.png)
