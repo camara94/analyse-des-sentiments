@@ -1,0 +1,43 @@
+
+doc = document.querySelectorAll('article div.jeg_postblock_content');
+
+baseDeDonnee = {
+   'titre': [],
+   'contenu': [],
+   'date': [],
+   'auteur': [],
+   'lien': []
+}
+
+for( let i = 0; i < doc.length; i++ ) { 
+    if(doc[i].children[1] != undefined) {
+	if( doc[i].children[1].children[1] != undefined) {
+		baseDeDonnee.date.push(doc[i].children[1].children[1].innerText);
+                baseDeDonnee.auteur.push(doc[i].children[1].children[0].innerText.substr('Mis en ligne par '.length));
+		baseDeDonnee.contenu.push(doc[i].innerText);
+                baseDeDonnee.titre.push(doc[i].children[0].innerText);
+		baseDeDonnee.lien.push(doc[i].children[0].children[0].href);
+	} else {
+                baseDeDonnee.date.push(new Date().toISOString());
+		baseDeDonnee.contenu.push(doc[i].innerText);
+		baseDeDonnee.lien.push(doc[i].children[0].children[0].href);
+                baseDeDonnee.titre.push(doc[i].children[0].innerText);
+                baseDeDonnee.auteur.push(doc[0].children[1].children[0].innerText.substr('Mis en ligne par '.length));
+    	}
+     }
+}
+
+
+
+const telecharger = (contenu, nomDuFichier, contentType) => {
+ const a = document.createElement("a");
+ const fichier = new Blob([contenu], { type: contentType });
+ a.href = URL.createObjectURL(fichier);
+ a.download = nomDuFichier;
+ a.click();
+}
+
+const lancerTelechargement = () => download(JSON.stringify(baseDeDonnee), "actualite-guinee.json", "text/plain");
+
+
+lancerTelechargement()
